@@ -24,7 +24,7 @@ I have another server has an even older raid card of (SAS 2004). My Rock Linux s
 card(which is in IT mode).
 
 The big issue is that the mpt3sas module comes with Rocky linux 8.6 does not support SAS-2 anymore. The only work around for this issue is to install a 
-different module file supporting SAS-2 from ELRPO repository:
+different module file supporting SAS-2 from ELREPO repository:
 
 ```text
 # first unload the default mpt3sas module fron kernel
